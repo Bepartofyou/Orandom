@@ -251,7 +251,7 @@ class COrandom{
 	};
 public:
 	COrandom() {}
-	~COrandom() {}
+	~COrandom() { std::vector<Tdata>().swap(m_data); }
 
 	void push_data(T data) {
 
