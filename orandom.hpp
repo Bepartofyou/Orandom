@@ -140,6 +140,7 @@ typedef unsigned char byte;
 #include <errno.h>
 #endif
 
+#include <limits.h>
 #include <limits>
 #include <vector>
 #include <string>

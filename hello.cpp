@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 		iorand.push_data(4444);
 		iorand.push_data(5555);
 
-		std::cout << "data type: 'int'" << "   " << "rand num: " << index << std::endl;
+		std::cout << "data type: 'int   '" << "   " << "rand num: " << index << std::endl;
 		for (size_t i = 0; i < 10; i++) {
 			std::vector<int> rdata = iorand.get_rdata(index);
 		}
@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
 		forand.push_data(4.444f);
 		forand.push_data(5.555f);
 
-		std::cout << "data type: 'float'" << "   " << "rand num: " << index << std::endl;
+		std::cout << "data type: 'float '" << "   " << "rand num: " << index << std::endl;
 		for (size_t i = 0; i < 10; i++) {
 			std::vector<float> rdata = forand.get_rdata(index);
 		}
